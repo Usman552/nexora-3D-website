@@ -886,7 +886,7 @@ tbody tr.sel{background:rgba(123,97,255,.1)}
 .confetti{position:fixed;z-index:200;border-radius:2px;pointer-events:none}
 .hero .sticky::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;opacity:calc(1 - var(--p) * 3);
   background:radial-gradient(420px circle at var(--gx,70%) var(--gy,40%),rgba(110,214,230,.09),transparent 65%)}
-.hero .sticky > *{position:relative;z-index:1}
+.hero .sticky > .wrap{position:relative;z-index:1}
 .h2.split .wo{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.12em;margin-bottom:-.12em}
 .h2.split .wd{display:inline-block;transform:translate3d(0,105%,0) rotate(4deg);transform-origin:0 100%;opacity:0;
   transition:transform 700ms var(--ease),opacity 500ms var(--ease);transition-delay:calc(var(--k) * 55ms)}
